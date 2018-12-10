@@ -1,0 +1,11 @@
+# Terminal main source file
+
+# Environment variables
+source ~/.config/myconfigs/env
+
+# Aliases
+source ~/.config/myconfigs/alias
+
+# Keychain
+source ~/.config/myconfigs/extra/keychain
+

@@ -1,0 +1,31 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1535606612599133-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>sublime</icon>
+	<name>Open in Sublime</name>
+	<unique-id>1538416420935409-1</unique-id>
+	<command>subl3 %f</command>
+	<description>Open the selected folder in Sublime Text 3</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+<action>
+	<icon>atom</icon>
+	<name>Open in Atom</name>
+	<unique-id>1538416519815729-1</unique-id>
+	<command>atom %f</command>
+	<description>Open the selected folder in Atom</description>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+</actions>
