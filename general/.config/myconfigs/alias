@@ -11,4 +11,5 @@ alias gr='git rm'
 alias gs='git status'
 
 # Dotfiles
-alias 'dotfiles'='git --git-dir=/home/cezar/Maintenance/.dotfiles-local --work-tree=/home/cezar'
+alias 'dotfiles'='git --git-dir=/home/cezar/Maintenance/dotfiles/.git --work-tree=/home/cezar/Maintenance/dotfiles/'
+alias 'stow'='stow -t ${HOME}'
