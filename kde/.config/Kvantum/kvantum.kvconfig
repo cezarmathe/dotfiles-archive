@@ -1,0 +1,6 @@
+[General]
+theme=KvMojave
+
+[Applications]
+Akava-Kv=dolphin
+Default=dolphin

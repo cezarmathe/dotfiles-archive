@@ -1,0 +1,19 @@
+# File created by KDE Gtk Config
+# Configs for GTK2 programs 
+
+include "/home/cezar/.themes/Mojave-dark/gtk-2.0/gtkrc"
+style "user-font" 
+{
+	font_name="Courier Prime Sans Bold"
+}
+widget_class "*" style "user-font"
+gtk-font-name="Courier Prime Sans Bold 10"
+gtk-theme-name="Mojave-dark"
+gtk-icon-theme-name="Papirus"
+gtk-fallback-icon-theme="Adwaita"
+gtk-cursor-theme-name="breeze_cursors"
+gtk-toolbar-style=GTK_TOOLBAR_BOTH
+gtk-menu-images=1
+gtk-button-images=1
+gtk-primary-button-warps-slider=0
+gtk-modules=appmenu-gtk-module
