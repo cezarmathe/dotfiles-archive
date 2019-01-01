@@ -1,9 +1,0 @@
-# OB_Autostart config
-LAUNCH_LIST = [ 
-	 ("Plank dock bar","plank","0",""),
-	 ("Discord","discord --show-minimized","0",""),
-	 ("Thunar daemon","thunar --daemon","0",""),
-	 ("Redshift","redshift-gtk","0",""),
-	 ("Nitrogen-wallpapers","nitrogen --restore &","0",""),
-	 ("Volume control","alsatray","0",""),
-	]
