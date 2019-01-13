@@ -5,6 +5,7 @@ export GOPATH="${HOME}/Projects/Go"
 export GOBIN="${HOME}/Projects/Go/bin"
 export GOSRC="${HOME}/Projects/Go/src"
 export GOPKG="${HOME}/Projects/Go/pkg"
+export GO111MODULE=on
 
 # Path
 export PATH="${PATH}:/home/cezar/Scripts:${GOBIN}"
