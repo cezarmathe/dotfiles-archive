@@ -1,0 +1,5 @@
+
+
+function reload() {
+    source ~/.zshrc
+}

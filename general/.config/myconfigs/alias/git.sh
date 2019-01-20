@@ -1,6 +1,6 @@
-# Terminal aliases
 
 # Git aliases
+
 alias ga='git add'
 alias gc='git commit'
 alias gcm='git commit -m'
@@ -10,6 +10,4 @@ alias gpod='git push origin development'
 alias gr='git rm'
 alias gs='git status'
 
-# Dotfiles
-alias 'dotfiles'='git --git-dir=/home/cezar/Maintenance/dotfiles/.git --work-tree=/home/cezar/Maintenance/dotfiles/'
-alias 'stow'='stow -t ${HOME}'
+

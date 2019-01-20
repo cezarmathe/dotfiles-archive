@@ -9,7 +9,8 @@
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 
-ZSH_THEME="spaceship"
+ZSH_THEME="powerlevel9k/powerlevel9k"
+# ZSH_THEME="spaceship"
 # ZSH_THEME="bullet-train"
 
 # Set list of themes to pick from when loading at random
@@ -66,6 +67,12 @@ ZSH_THEME="spaceship"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  tmux
+  vscode
+  web-search
+  osx
+  history
+
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -103,4 +110,5 @@ source $ZSH/oh-my-zsh.sh
 source "${HOME}/.config/myconfigs/terminal"
 
 # Spaceship theme configs
-SPACESHIP_TIME_SHOW=true
+# SPACESHIP_TIME_SHOW=true
+# gosh
